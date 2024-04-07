@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "fanta_mod",
+  "version": "1.0-SNAPSHOT",
+  "name": "Fanta mod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/morit/Fanta mod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fanta_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "at.leisner.fanta_mod.client.FantaModClient"
+    ],
+    "main": [
+      "at.leisner.fanta_mod.FantaMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric": "*",
+    "minecraft": "1.20.4"
+  }
+}

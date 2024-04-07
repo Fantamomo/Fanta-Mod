@@ -1,0 +1,50 @@
+/tick unfreeze
+/tick freeze
+/raw Player954 hud/item {item:"minecraft:diamond",x:100,y:100,id:10}
+/raw Player954 hud/text {item:"minecraft:diamond",x:100,y:100,id:11,text:"hallo"}
+/raw Player954 hud/text {item:"minecraft:diamond",x:100,y:100,id:11,text:""}
+/raw Player954 hud/text {item:"minecraft:diamond",x:100,y:100,id:10,text:"hallo"}
+/raw Player954 hud/text {item:"minecraft:diamond",x:100,y:100,id:10,text:""}
+/raw Player954 hud/tooltip {text:["hallo","vincenz"]}
+/raw Player954 hud/tooltip {text:[],id:0}
+/raw Player954 screen/optional {title:"hallo",buttons:["hallo"]}
+/raw Player954 screen/optional {title:"hallo",buttons:["hallo","1","2","3","4","5"]}
+/raw Player954 screen/optional {title:"hallo",buttons:["hallo","1","2","3","4","5"],canCloseWithEsc:true}
+/raw Player954 screen/optional {title:"hallo",buttons:["hallo","1","2","3","4","5"],canCloseWithEsc:false}
+/raw Player954 screen/optional {title:"hallo_hwkajdhiawukdhaidhawhaidhukahwidhukadhawui",buttons:["hallo","1","2","3","4","5"],canCloseWithEsc:false}
+/raw Player954 screen/optional {title:"hallo_hwkajdhiawukdhaidhawhaidhukahwidhukadhawui",buttons:["hallo","1","2","3","4","5"],canCloseWithEsc:true}
+/xp add @s 1000000 levels
+/tick step 1t
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/raw Player954 screen/optional {title:"hallo_hwkajdhiawukdhaidhawhaidhukahwidhukadhawui",buttons:["hallo","1","2","3","4","5"],canCloseWithEsc:true}
+/raw Player584 screen/optional {title:"hallo_hwkajdhiawukdhaidhawhaidhukahwidhukadhawui",buttons:["hallo","1","2","3","4","5"],canCloseWithEsc:true}
+/raw Player584 screen/custom {}
+/raw Player584 screen/custom {title:"hallo"}
+/raw Player584 screen/custom {title:"hallo:wadadwaasfawfdswada"}
+/raw Player584 screen/custom {title:""}
+/raw Player584 screen/custom {widget:[{type:button}]}
+/raw Player584 screen/custom {widget:[{type:textField}]}
+/deop Player584
+/raw Player190 screen/custom {widget:[{type:textField}]}
+/raw Player190 screen/custom {widget:[{type:textField},{type:button}]}
+/raw Player190 screen/custom {widget:[{type:textField},{type:button,y:100}]}
+/raw Player190 screen/custom {widget:[{type:textField},{type:button,y:100},{type:checkbox,x:100}]}
+/raw Player190 screen/custom {widget:[{type:textField},{type:button,y:100},{type:checkbox,x:150}]}
+/tick freeze
+/raw Player190 screen/builder {}
+/raw Player208 screen/builder {}
+/raw Player225 screen/builder {}
+/raw Player225 screen/custom {widgets:[{type:slider}]}
+/raw Player225 screen/custom {widget:[{type:slider}]}
+/raw Player225 screen/custom {widget:[{type:slider,text:"hallo"}]}
+/raw Player225 screen/custom {widget:[{type:slider,text:"hallo",defaulValue:12}]}
+/raw Player225 screen/custom {widget:[{type:toggleButton}]}
+/raw Player225 screen/custom {widget:[{type:toggleButton,text:"a"}]}
+/raw Player225 screen/optional {}
+/raw Player225 screen/optional {title:""}
+/raw Player225 screen/optional {title:"",buttons:[]}
+/raw Player225 screen/optional {title:"hallo",buttons:[]}
